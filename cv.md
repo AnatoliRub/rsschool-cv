@@ -56,8 +56,18 @@ String.prototype.isLetter = function() {
 
 - **2008-2012** _Gomel State Machine-Building College_
 
-  specialization: "Programming for CAD".
+  Specialization: "Programming for CAD".
 
 - **2012-2017** _Sukhoi State Technical University of Gomel_
 
-  specialization: "Metallurgy of ferrous and non-ferrous metals".
+  Specialization: "Metallurgy of ferrous and non-ferrous metals".
+
+## Languages
+
+---
+
+- Russian level: native;
+
+- English level: A2.
+
+  I can read documentation in English with dictionary. I can speak English using simple grammar constructions. I go to a tutor to improve my English.
