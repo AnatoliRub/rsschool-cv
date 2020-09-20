@@ -30,6 +30,7 @@ I'm seeking position as a **junior frontend developer**. I'm purposeful, detail-
 ## Skills
 
 ---
+
 - HTML;
 - CSS;
 - Javascript;
@@ -38,3 +39,25 @@ I'm seeking position as a **junior frontend developer**. I'm purposeful, detail-
 - SQL;
 - Flexbox layout;
 - Grid layout.
+
+## Code Example
+
+---
+
+```
+String.prototype.isLetter = function() {
+  return /^[a-z]{1}$/i.test(this);
+}
+```
+
+## Education
+
+---
+
+- **2008-2012** _Gomel State Machine-Building College_
+
+  specialization: "Programming for CAD".
+
+- **2012-2017** _Sukhoi State Technical University of Gomel_
+
+  specialization: "Metallurgy of ferrous and non-ferrous metals".
