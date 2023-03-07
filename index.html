@@ -254,7 +254,7 @@ snail(array) =&gt; [1,2,3,4,5,6,7,8,9]
                   var vector = [];
                   while (array.length) {
                     vector.push(...array.shift());
-                    array.map(row => vector.push(row.pop()));
+                    array.map(row =&gt; vector.push(row.pop()));
                     array.reverse().map(row =&gt; row.reverse());
                   }
                   return vector;
@@ -272,7 +272,7 @@ snail(array) =&gt; [1,2,3,4,5,6,7,8,9]
         </a>
         <p>2021</p>
         <div class="github">
-          <a href="https://github.com/AnatoliRub/" alt="github">
+          <a href="https://github.com/AnatoliRub/">
             <i class="fab fa-github-alt"></i>
           </a>
         </div>
