@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics</title>
+    <title>HTML, CSS &amp; Git Basics</title>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
     <div class="wrapper">
@@ -47,7 +47,7 @@
                     <div class="icon">
                       <i class="fab fa-discord"></i>
                     </div>
-                    <div class="text">Catapuz#5790</div>
+                    <div class="text">Catapuz</div>
                   </div>
                 </li>
                 <li>
@@ -246,7 +246,7 @@
 array = [[1,2,3],
                 [8,9,4],
                 [7,6,5]]
-snail(array) #=> [1,2,3,4,5,6,7,8,9]
+snail(array) =&gt; [1,2,3,4,5,6,7,8,9]
                 </pre>
               </div>
               <code>
@@ -255,7 +255,7 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
                   while (array.length) {
                     vector.push(...array.shift());
                     array.map(row => vector.push(row.pop()));
-                    array.reverse().map(row => row.reverse());
+                    array.reverse().map(row =&gt; row.reverse());
                   }
                   return vector;
                 }
